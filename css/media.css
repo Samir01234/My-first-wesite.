@@ -1,0 +1,64 @@
+
+@media only screen and (max-width:1100px){
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .logo{
+        padding: 30px;
+    }
+
+    .rightnav{
+        display: none;
+        width: 60%;
+        text-align: center;
+        align-items: center;
+    }
+    #search{
+        max-width: 100%;
+    }
+    
+    .burger{
+        top: 5vh;
+        display: block;
+        position: absolute;
+    }
+
+    .h-nav{
+        height: 12vh;
+    }
+
+    .box-main{
+        height: 100vh;
+        max-width: 80%;
+    }
+
+    .box-main2,
+    .box-main3,
+    .box-main4,
+    .box-main5,
+    .form-section{
+        height: 90vh;
+    }
+
+    .globe,
+    .business-solution,
+    .famous-dialog,
+    .fear-death{
+        max-width: 60%;
+    }
+
+    .image,
+    .solution-pic,
+    .devil-pic,
+    .fear-pic{
+        max-width: 40%;
+    }
+
+    .business-solution,
+    .solution-pic{
+        padding: 30px;
+        font-size: 30px;
+    }
+
+}
